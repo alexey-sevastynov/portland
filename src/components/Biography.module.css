@@ -51,7 +51,11 @@
 }
 
 .biography p {
-    text-align: justify;
+    width: 100%;
+    height: 100px;
+    color: black;
+    font-size: 16px;
+    /* text-align: justify; */
     margin-bottom: 40px;
 }
 
@@ -95,7 +99,7 @@
 }
 
 .skillsBlock__text p {
-    text-align: start;
+    /* text-align: start; */
 }
 
 
@@ -118,12 +122,12 @@
 @media(max-width:1020px) {
     .container {
         margin: 0 auto;
-        width: 98%;
+        width: 95%;
     }
 
     .wrapper {
 
-        margin-top: 10px;
+        margin-top: 60px;
         display: flex;
 
         flex-direction: column;
@@ -151,16 +155,19 @@
     }
 
     .skillsBlock__text {
-        width: 150px;
+        width: 100%;
     }
 
     .skillsBlock {
         display: grid;
         grid-template: 1fr 1fr / 1fr 1fr;
-        gap: 0px 0px;
+        gap: 0px 20px;
     }
-    
+
+    .skillsBlock__wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
 
 }
-
-

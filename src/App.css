@@ -9,3 +9,7 @@ button {
     border: unset;
     cursor: pointer;
 }
+
+p {
+    font-size: 16px;
+}
