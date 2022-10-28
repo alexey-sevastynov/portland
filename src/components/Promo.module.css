@@ -1,0 +1,108 @@
+.image {
+    height: 100vh;
+    background: url('../../public/img/promo1.jpg') no-repeat 100% / cover;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1120px;
+    height: 100%;
+    position: relative;
+}
+
+.language {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.language button {
+    width: 60px;
+    color: white;
+    font-size: 18.72px;
+}
+
+.language div {
+
+    margin: 0px 10px;
+    padding: 10px 0px;
+    width: 1px;
+    height: 7px;
+    border-radius: 1px;
+    background-color: white;
+    opacity: 50%;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 250px;
+    transform: translateY(-50%);
+
+
+}
+
+.subtitle {
+    position: relative;
+}
+
+.circle {
+    z-index: -1;
+    top: -37%;
+    left: -7px;
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #9d4100;
+}
+
+.subtitle h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.subtitle h3 span {
+    margin-right: 10px;
+
+}
+
+h1 {
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+.buttons {
+
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    font-size: 18.72px;
+}
+
+.btn1 {
+    margin-right: 30px;
+    padding: 10px;
+    background-color: #9d4100;
+
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    color: white;
+}
+
+.btn2 {
+    color: white;
+}
+
+.btn2:hover {
+    text-decoration: underline;
+}

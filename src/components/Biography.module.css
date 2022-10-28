@@ -1,0 +1,93 @@
+.container {
+    margin: 0 auto;
+    width: 1120px;
+}
+
+.wrapper {
+
+    margin-top: 60px;
+    display: flex;
+
+    flex-direction: row;
+}
+
+.photo {
+
+    margin-right: 40px;
+    display: block;
+}
+
+.biography {
+    flex: 1;
+    position: relative;
+
+}
+
+.biography h3 {
+    letter-spacing: 1px;
+    margin-left: 4px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.biography h3 span {
+    color: white;
+}
+
+.biography h2 {
+    margin-bottom: 20px;
+}
+
+.line {
+    margin-bottom: 20px;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #9d4100;
+}
+
+.biography p {
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.circle {
+    z-index: -1;
+    top: 0%;
+    left: 0px;
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #9d4100;
+}
+
+.skillsBlock {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 20px 175px;
+}
+
+.skillsBlock__wrapper {}
+
+.skillsBlock__img {
+    margin-right: 20px;
+    position: relative;
+}
+
+.skillsBlock__img img {
+    margin: 15px 0px 0px 15px;
+}
+
+.skillsBlock__text {
+    width: 250px;
+}
+
+.skillsBlock__text h3 {
+    letter-spacing: 1px;
+}
+
+.skillsBlock__text p {
+    text-align: start;
+}

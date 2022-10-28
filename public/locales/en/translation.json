@@ -1,0 +1,23 @@
+{
+    "promo": {
+        "ua": "ukr",
+        "ru": "rus",
+        "en": "eng",
+        "my": "My",
+        "name": "name is Aleksey",
+        "title1": "I am a web developer",
+        "title2": "from the city",
+        "title3": "of Dnipro",
+        "btn1": "Portland",
+        "btn2": "About me"
+    },
+    "biography":{
+        "abo": "Abo",
+        "me": "ut me",
+        "name": "My name is Aleksey",
+        "live": "Dependable entry-level web developer with a strong work ethic and excellent customer service record. Deeply knowledgeable in a wide variety of computer languages, including HTML5, CSS, JavaScript and React and understands principles and techniques of initial website construction and ongoing maintenance. Strong communicator and is flexible with scheduling.",
+        "title1": "Web Developer",
+        "p1": "I responsible for turning user stories, mockups, and web designs into functional websites. I use web fundamentals such as HTML, CSS, and JavaScript to build, manage, and deploy web applications. "
+        
+    }
+}
