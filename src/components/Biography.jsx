@@ -33,7 +33,7 @@ function Biography() {
                     <div className={styles.skillsBlock}>
                         <div className={styles.skillsBlock__wrapper}>
                             <div className={styles.skillsBlock__img}>
-                                <img src="../../icons/internet-web-browser-icon.png" width={40} alt="icon" />
+                                <img src="../../icons/internet-web-browser-icon.png" alt="icon" />
 
                                 <span className={styles.circle}></span>
                             </div>

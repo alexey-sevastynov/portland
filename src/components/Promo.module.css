@@ -116,9 +116,44 @@ button {
 }
 
 @media(max-width:1020px) {
+
+    .image {
+        height: 100vh;
+        background: url('../../public/img/promo1.jpg') no-repeat 20% / cover;
+    }
+
+    .language button {
+        font-size: 30px;
+    }
+
+    .circle {
+        z-index: -1;
+        top: -32%;
+        left: -11px;
+        position: absolute;
+        content: '';
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        background: #9d4100;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 58px;
+    }
+
+    button {
+        font-size: 30px;
+    }
+
     .container {
         margin: 0 auto;
         width: 800px;
     }
+
 
 }
