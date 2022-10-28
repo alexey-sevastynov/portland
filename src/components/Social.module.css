@@ -1,4 +1,5 @@
 .fixed {
+
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
@@ -40,4 +41,13 @@
 
 .wrapper button img {
     transform: rotate(-90deg);
+}
+
+
+
+@media(max-width:1500px) {
+    .fixed {
+        display: none;
+    }
+
 }

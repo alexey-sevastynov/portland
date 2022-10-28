@@ -106,3 +106,19 @@ button {
 .btn2:hover {
     text-decoration: underline;
 }
+
+@media(max-width:1140px) {
+    .container {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+}
+
+@media(max-width:1020px) {
+    .container {
+        margin: 0 auto;
+        width: 800px;
+    }
+
+}

@@ -17,6 +17,10 @@
     display: block;
 }
 
+.photo__mobile {
+    display: none;
+}
+
 .biography {
     flex: 1;
     position: relative;
@@ -69,7 +73,9 @@
     gap: 20px 175px;
 }
 
-.skillsBlock__wrapper {}
+.skillsBlock__wrapper {
+    display: flex;
+}
 
 .skillsBlock__img {
     margin-right: 20px;
@@ -81,7 +87,7 @@
 }
 
 .skillsBlock__text {
-    width: 250px;
+    width: 100%;
 }
 
 .skillsBlock__text h3 {
@@ -91,3 +97,70 @@
 .skillsBlock__text p {
     text-align: start;
 }
+
+
+
+
+@media(max-width:1140px) {
+    .container {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+    .skillsBlock {
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr;
+        gap: 20px 60px;
+    }
+
+}
+
+@media(max-width:1020px) {
+    .container {
+        margin: 0 auto;
+        width: 98%;
+    }
+
+    .wrapper {
+
+        margin-top: 10px;
+        display: flex;
+
+        flex-direction: column;
+    }
+
+    .photo {
+        margin-bottom: 20px;
+        width: 100%;
+        margin-right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .photo__pc {
+        display: none;
+    }
+
+    .photo__mobile {
+
+        display: block;
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .skillsBlock__text {
+        width: 150px;
+    }
+
+    .skillsBlock {
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr;
+        gap: 0px 0px;
+    }
+    
+
+}
+
+

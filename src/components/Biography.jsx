@@ -17,7 +17,12 @@ function Biography() {
         <div className={styles.container}>
             <div className={styles.wrapper} >
                 <div className={styles.photo}>
-                    <img src='../../img/photo3.jpg' width={400} alt="myPhoto" />
+                    <img src='../../img/photo3.jpg'
+                        className={styles.photo__pc}
+                        width={400} alt="myPhoto" />
+                    <img src='../../img/photo2.jpg'
+                        className={styles.photo__mobile}
+                        alt="myPhoto" />
                 </div>
                 <div className={styles.biography}>
                     <span className={styles.circle}></span>
@@ -29,6 +34,7 @@ function Biography() {
                         <div className={styles.skillsBlock__wrapper}>
                             <div className={styles.skillsBlock__img}>
                                 <img src="../../icons/internet-web-browser-icon.png" width={40} alt="icon" />
+
                                 <span className={styles.circle}></span>
                             </div>
                             <div className={styles.skillsBlock__text}>
