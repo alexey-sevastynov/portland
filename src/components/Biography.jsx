@@ -12,6 +12,20 @@ import '../i18next'
 function Biography() {
     const { t } = useTranslation();
 
+    const listSkills = [
+        {
+            icon: '../../icons/internet-web-browser-icon.png',
+            title: t("biography.title1"),
+            description: t("biography.p1")
+        },
+        {
+            icon: '../../icons/internet-web-browser-icon.png',
+            title: t("biography.title2"),
+            description: t("biography.p2")
+        }
+ 
+    ];
+
 
     return (
         <div className={styles.container}>
@@ -31,38 +45,25 @@ function Biography() {
                     <span className={styles.line}></span>
                     <p>{t("biography.live")}</p>
                     <div className={styles.skillsBlock}>
-                        <div className={styles.skillsBlock__wrapper}>
-                            <div className={styles.skillsBlock__img}>
-                                <img src="../../icons/internet-web-browser-icon.png" alt="icon" />
 
-                                <span className={styles.circle}></span>
+                        {listSkills.map((skillBlock, id) => (
+                            <div
+                                key={id}
+                                className={styles.skillsBlock__wrapper}>
+                                <div className={styles.skillsBlock__img}>
+                                    <img src={skillBlock.icon} alt="icon" />
+                                    <span className={styles.circle}></span>
+                                </div>
+                                <div className={styles.skillsBlock__text}>
+                                    <h3 >{skillBlock.title}</h3>
+                                    <p >{skillBlock.description}</p>
+                                </div>
                             </div>
-                            <div className={styles.skillsBlock__text}>
-                                <h3 >{t("biography.title1")}</h3>
-                                <p >{t("biography.p1")}</p>
-                            </div>
-                        </div>
-                        <div className={styles.skillsBlock__wrapper}>
-                            <div className={styles.skillsBlock__img}>
-                                <img src="../../icons/internet-web-browser-icon.png" width={40} alt="icon" />
-                                <span className={styles.circle}></span>
-                            </div>
-                            <div className={styles.skillsBlock__text}>
-                                <h3 >Web Developer</h3>
-                                <p > I responsible for turning user stories, mockups, and web designs into functional websites. I use web fundamentals such as HTML, CSS, and JavaScript to build, manage, and deploy web applications. </p>
-                            </div>
-                        </div>
-                        <div className={styles.skillsBlock__wrapper}>
-                            <div className={styles.skillsBlock__img}>
-                                <img src="../../icons/internet-web-browser-icon.png" width={40} alt="icon" />
-                                <span className={styles.circle}></span>
-                            </div>
-                            <div className={styles.skillsBlock__text}>
-                                <h3 >Web Developer</h3>
-                                <p > I responsible for turning user stories, mockups, and web designs into functional websites. I use web fundamentals such as HTML, CSS, and JavaScript to build, manage, and deploy web applications. </p>
-                            </div>
-                        </div>
+
+                        ))}
+                        
                     </div>
+
                 </div>
 
             </div>

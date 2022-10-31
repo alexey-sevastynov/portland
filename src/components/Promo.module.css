@@ -58,7 +58,7 @@
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background: #9d4100;
+    background: #ce5600;
 }
 
 .subtitle h3 {
@@ -67,6 +67,7 @@
 }
 
 .subtitle h3 span {
+    color: white;
     margin-right: 10px;
 
 }
@@ -90,7 +91,7 @@ button {
 .btn1 {
     margin-right: 30px;
     padding: 10px;
-    background-color: #9d4100;
+    background-color: #ce5600;
 
     border-radius: 5px;
 }

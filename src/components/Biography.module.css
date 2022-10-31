@@ -34,9 +34,7 @@
     margin-bottom: 20px;
 }
 
-.biography h3 span {
-    color: white;
-}
+.biography h3 span {}
 
 .biography h2 {
     margin-bottom: 20px;
@@ -47,7 +45,7 @@
     display: block;
     width: 60px;
     height: 3px;
-    background-color: #9d4100;
+    background-color: #ce5600;
 }
 
 .biography p {
@@ -56,7 +54,7 @@
     color: black;
     font-size: 16px;
     text-align: justify;
-    margin-bottom: 40px;
+
 }
 
 .circle {
@@ -68,13 +66,13 @@
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background: #9d4100;
+    background: #ce5600;
 }
 
 .skillsBlock {
-    display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr;
-    gap: 20px 175px;
+    margin-top: 30px;
+    display: flex;
+
 }
 
 .skillsBlock__wrapper {
@@ -116,9 +114,8 @@
     }
 
     .skillsBlock {
-        display: grid;
-        grid-template: 1fr 1fr / 1fr 1fr;
-        gap: 20px 60px;
+        display: flex;
+
     }
 
 }
@@ -163,12 +160,13 @@
     }
 
     .skillsBlock {
-        display: grid;
-        grid-template: 1fr 1fr / 1fr 1fr;
-        gap: 0px 20px;
+        
+        flex-direction: column;
+
     }
 
     .skillsBlock__wrapper {
+        margin-top: 20px;
         display: flex;
         width: 100%;
         justify-content: center;
@@ -180,6 +178,10 @@
 
     h3 {
         font-size: 30px;
+    }
+
+    h4 {
+        font-size: 26px;
     }
 
     .biography p {
@@ -200,7 +202,7 @@
         width: 60px;
         height: 60px;
         border-radius: 100%;
-        background: #9d4100;
+        background: #ce5600;
     }
 
     .skillsBlock__text p {

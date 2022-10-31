@@ -11,13 +11,57 @@
         "btn1": "Portland",
         "btn2": "About me"
     },
-    "biography":{
+    "biography": {
         "abo": "Abo",
         "me": "ut me",
         "name": "My name is Aleksey",
         "live": "Dependable entry-level web developer with a strong work ethic and excellent customer service record. Deeply knowledgeable in a wide variety of computer languages, including HTML5, CSS, JavaScript and React and understands principles and techniques of initial website construction and ongoing maintenance. Strong communicator and is flexible with scheduling.",
         "title1": "Web Developer",
-        "p1": "I responsible for turning user stories, mockups, and web designs into functional websites. I use web fundamentals such as HTML, CSS, and JavaScript to build, manage, and deploy web applications. "
-        
+        "p1": "I responsible for turning user stories, mockups, and web designs into functional websites. I use web fundamentals such as HTML, CSS, and JavaScript to build, manage, and deploy web applications. ",
+        "title2": "UI/UX Design",
+        "p2": "I design static and dynamic websites on the Internet. I create interactive elements of web pages, dynamic menus and control elements, as well as embed video fragments into web pages using Adobe Animate technology."
+    },
+    "experience": {
+        "subtitle": "Experience",
+        "title": "How am I useful",
+        "col__1": "Education",
+        "title__1a": "Computer Academy IT Step",
+        "subtitle__1a": "Dnipro (2009-2013)",
+        "text__1a": "Graphic design courses. Creating Static Web Pages Using HTML5 and CSS3 UI/UX Basics. Graphic editor Adobe Photoshop. Creating interfaces for mobile applications and websites with Figma.",
+        "title__1b": "Udemy",
+        "subtitle__1b": "Web development courses (2020-2022)",
+        "text__1b": "Front-end courses. Basics of HTML and CSS layout. JavaScript (ES6, ES8, ES9, ES2020, ES2022) and React 18 framework.",
+        "col__2": "Work experience",
+        "title__2a": "UI/UX Design",
+        "subtitle__2a": "'Freelancehunt'",
+        "text__2a": "Creating interfaces for mobile applications and websites with Figma.",
+        "title__2b": "Frontend developer",
+        "subtitle__2b": "'Freelancehunt' (2021-2022)",
+        "text__2b": "Responsive layout of one-page, corporate websites according to the Figma layout. Website design and functionality. Creation of online stores."
+    },
+    "skills": {
+        "subtitle": "Skills",
+        "title": "What do I use at work?",
+        "title__cart1": "Adobe Photoshop",
+        "text__cart1": "Professional processing of photos and raster images, retouching and collage.",
+        "title__cart2": "Autodesk 3ds Max",
+        "text__cart2": "Basic 3D and Autodesk 3ds Max skills",
+        "title__cart3": "Figma",
+        "text__cart3": "In Figma, you can draw interface elements, create an interactive prototype of the site and application, illustrations, vector graphics.",
+        "title__cart4": "HTML5",
+        "text__cart4": "It is he who creates the framework of your site or application, and the fifth version will allow me to create a more SEO-optimized structure of your product.",
+        "title__cart5": "CSS3",
+        "text__cart5": "This style language allows me to create absolutely any look for your site or application. Everything is limited only by your imagination!",
+        "title__cart6": "Java Script",
+        "text__cart6": "This programming language allows you to bring anything to life: sliders, windows, tooltips, tabs, receiving data from the server, and much more.",
+        "title__cart7": "Node.js",
+        "text__cart7": "This platform allows you to create a backend for your product - 'brains' that will perform actions that the user does not see.",
+        "title__cart8": "React",
+        "text__cart8": "This library allows you to create web applications. We can create the most interactive product just for your goals.",
+        "title__percent1": "Design creation",
+        "title__percent2": "Creativity",
+        "title__percent3": "Website development",
+        "title__percent4": "Working with data",
+        "title__percent5": "Soft skills"
     }
 }

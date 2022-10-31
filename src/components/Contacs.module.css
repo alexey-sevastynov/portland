@@ -1,0 +1,159 @@
+.container {
+    margin: 0 auto;
+    width: 1120px;
+}
+
+.contacs__column {
+
+    margin: 60px 35px 300px 52px;
+    display: grid;
+    grid-template-columns: 400px 585px;
+    column-gap: 68px;
+}
+
+.contacs__photo img {
+    max-width: 400px;
+}
+
+.contacs__title {
+    padding-left: 12px;
+    position: relative;
+    text-align: start;
+}
+
+.title_three::before {
+    position: absolute;
+    left: 0;
+    transform: translate(0);
+
+}
+
+.contacs__subtitle {
+    text-align: start;
+}
+
+.contacs__line {
+    margin: 0;
+}
+
+.contacs__text {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.contacs__social {
+    margin-top: 20px;
+}
+
+.contacs__link img {
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.contacs__form {
+
+    margin-top: 30px;
+    display: grid;
+    grid-template: 40px 190px 45px / repeat(2, 250px);
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.contacs__input {
+    position: relative;
+}
+
+.contacs__input input {
+
+    width: 100%;
+    height: 100%;
+
+    padding: 0 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.contacs__input label {
+    display: block;
+    position: absolute;
+    height: 18px;
+    padding: 0 8px;
+    background-color: #fff;
+    font-size: 12px;
+    z-index: 1;
+    top: -6px;
+    left: 12px;
+}
+
+.contacs__textarea {
+    position: relative;
+    grid-column: 1/3;
+    grid-row: 2 / 3;
+}
+
+.contacs__textarea textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    /* убрать масштабироание textarea пользователем  */
+    padding: 20px;
+}
+
+.contacs__textarea label {
+    display: block;
+    position: absolute;
+    height: 18px;
+    padding: 0 8px;
+    background-color: #fff;
+    font-size: 12px;
+    z-index: 1;
+    top: -6px;
+    left: 12px;
+}
+
+.contacs__btn {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    border: none;
+}
+
+.contacs__triggers {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 35px;
+    grid-column: 1/3;
+}
+
+.contacs__policy {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.contacs__policy input {
+    margin-right: 10px;
+}
+
+@media(max-width:1140px) {
+    .container {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+
+
+}
+
+@media(max-width:1020px) {
+    .container {
+        margin: 0 auto;
+        width: 95%;
+    }
+}
